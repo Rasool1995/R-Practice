@@ -1,0 +1,123 @@
+---
+title: "R Vector operations"
+author: "S M Rasool"
+date: "January 20, 2018"
+output:
+  md_document:
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+#Creating a numeric vector
+
+```{r}
+marks <- c(33,56,43,87,96)
+marks
+
+```
+
+
+#accessing a numeric vector by index 
+
+
+```{r}
+marks[1]
+
+marks[c(2,5)]
+
+marks[-c(3,5)]
+
+```
+
+## Plot
+
+```{r}
+plot(marks)
+```
+
+
+#Replacing elements by index
+
+```{r}
+marks[3] <- 66
+marks
+
+```
+
+
+#length
+
+length(marks)
+
+#accessing the last element
+
+marks[length(marks)]
+
+#creating number sequence
+
+10: 6
+
+90: 99
+
+#subsetting a vector
+
+sub_marks <- marks[5:2]
+sub_marks
+
+length(marks)
+last_3_marks <- marks[c(length(marks)-2:length(marks))]
+last_3_marks
+
+#first three
+
+First_3_marks <- marks[1:3]
+First_3_marks
+
+#Vector Arithmetic
+
+marks_with_practicals <- marks + 50
+marks_with_practicals
+
+percentage_marks<- (marks[1]+marks[2]+marks[3]+marks[4]+marks[5])/500 *100
+percentage_marks
+
+
+##vector + vector - Equal Size
+std_paid_fee <- c(20, 40, 30, 55)
+std_paid_fee
+std_total_fee <- c(100,150,400,60)
+std_total_fee
+remaining_fee <- std_total_fee - std_paid_fee
+
+
+
+
+##vector + vector - Equal Size
+
+std_join_date <- c(2012,2011, 2000)
+std_join_date
+std_comp_date <- c(2017,2018)
+std_comp_date
+duration_student <- std_join_date + std_comp_date
+
+#It will show warning message about length
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
