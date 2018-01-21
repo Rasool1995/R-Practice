@@ -19,15 +19,6 @@ chunks within the document. You can embed an R code chunk like this:
     ##  3rd Qu.:19.0   3rd Qu.: 56.00  
     ##  Max.   :25.0   Max.   :120.00
 
-Including Plots
----------------
-
-You can also embed plots, for example:
-
-![](Hist___box_plot__files/figure-markdown_strict/pressure-1.png)
-
-Note that the `echo = FALSE` parameter was added to the code chunk to
-prevent printing of the R code that generated the plot.
 
     #Creating a sample Vector
     s  <- sample(1:200,100)
@@ -43,18 +34,18 @@ prevent printing of the R code that generated the plot.
     #Plotting a Scatter diagram
     plot(s)
 
-![](Hist___box_plot__files/figure-markdown_strict/unnamed-chunk-2-1.png)
+![](unnamed-chunk-2-1.png)
 
 Plotting a Histogram
 ====================
 
     hist(s)
 
-![](Hist___box_plot__files/figure-markdown_strict/unnamed-chunk-3-1.png)
+![](unnamed-chunk-3-1.png)
 
 Plotting a Box plot
 ===================
 
     boxplot(s)
 
-![](Hist___box_plot__files/figure-markdown_strict/unnamed-chunk-4-1.png)
+![](unnamed-chunk-4-1.png)
