@@ -33,24 +33,28 @@ prevent printing of the R code that generated the plot.
     s  <- sample(1:200,100)
     s
 
-    ##   [1]   2 175  20 196  61  39 116 181 114  65 179 131 157 195  71 143 174
-    ##  [18] 119   6 171  68 167  23  24 137  69  37 147 190  13   8 164  86 128
-    ##  [35]  78  31 142  43  41   5 172  91  55  58 149  92 141  10 118   7 194
-    ##  [52]  54 129  80 133  60 182  85 151 108  16 121 127  28 161  48 173 183
-    ##  [69] 139 140 102  74  38  64 198  49 113 158 188  44  53  25 165 156  70
-    ##  [86] 105 176 193  76 136  26 199 124  66 163 134  56  34 123 159
+    ##   [1]  42  37 157 120 136  84   8 104 115  90   6 165 173   1 133 194 102
+    ##  [18] 193  99 103 132 200 105  25  50 178 140 174  92  87 159  31 106 139
+    ##  [35]  44 189  35  69  66  85 163  53  46 109 112  93  82 166 135  13 164
+    ##  [52] 176  17 113   7  79  19  41  67 151 111 131  75 124  58   4  30 191
+    ##  [69] 122   9 154   3  57  36  39  10  76 145  63 107 192  21  22 127  33
+    ##  [86]  49 169 148 184  14  40  80  55 110  38 155 147  86 149  78
 
     #Plotting a Scatter diagram
     plot(s)
 
 ![](Hist___box_plot__files/figure-markdown_strict/unnamed-chunk-2-1.png)
 
-    #Plotting a Histogram
+Plotting a Histogram
+====================
+
     hist(s)
 
 ![](Hist___box_plot__files/figure-markdown_strict/unnamed-chunk-3-1.png)
 
-    #Plotting a Box plot
+Plotting a Box plot
+===================
+
     boxplot(s)
 
 ![](Hist___box_plot__files/figure-markdown_strict/unnamed-chunk-4-1.png)
