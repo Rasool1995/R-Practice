@@ -1,0 +1,58 @@
+
+#Creating a character vector
+
+names <- c('p','q','r','s','t','u')
+
+#accessing a numeric vector by index 
+
+names[3]
+
+names[c(3,6)]
+
+myname <- cat(names[3],'a','s','o','o','l')
+
+
+#length
+
+length(names)
+
+
+#accessing the last element
+
+names[length(names)]
+
+#creating number sequence
+
+letters
+
+letters[10:1]
+
+#subsetting a vector
+
+new_names <- names[c(1,2,3)]  #first three
+new_names
+
+last_names <- names[(length(names) - 2) : length(names)]
+last_names
+
+#Vector Arithmetic
+
+age_after_10 <- age + 10
+
+age * 23
+
+age <- age / 10
+
+##vector + vector - Equal Size
+
+emp_join <- c(2010,2011,2008,2000)
+emp_leaving <- c(2017,2015,2011,2010)
+
+emp_dur <- emp_leaving - emp_join
+
+##vector + vector - Equal Size
+
+emp_join1 <- c(2010,2011)
+emp_leaving1 <- c(2017,2011,2010)
+
+emp_dur1 <- emp_leaving1 - emp_join1
