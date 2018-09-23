@@ -48,7 +48,7 @@ Direct values without positions
 
     ##  [1] 16 40 17 31  5 11 28 25  2 21 12 30 41 27
 
-which function with character values
+Which function with character values
 ====================================
 
     b <- c('ab','bc','cd','de','ef','fg','gh','hi','ij')
