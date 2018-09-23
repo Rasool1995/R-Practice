@@ -1,0 +1,100 @@
+---
+title: "Untitled"
+author: "S M Rasool"
+date: "September 21, 2018"
+output: md_document
+---
+#Version, platform and OS of my system
+
+```{r}
+sessionInfo()
+```
+
+
+
+
+
+# Which function
+```{r}
+a <- sample(1:100, 30)
+a
+
+```
+
+
+#Gives the position of element with a condition
+```{r}
+which(a<50)
+```
+
+# Direct values without positions
+```{r}
+a[which(a<50)]
+```
+#Which function with character values
+```{r}
+b <- c('ab','bc','cd','de','ef','fg','gh','hi','ij')
+```
+
+
+```{r}
+which(b== 'de')
+which(b!= 'hi')
+```
+
+
+
+```{r}
+d <- c('ab','bc','cd','de',NA,'fg','gh','hi','ij')
+d
+
+```
+
+#Generating even numbers with which function
+```{r}
+which((1:12)%%2 == 0)
+
+```
+
+#Matrix Operations
+```{r}
+m1 <-matrix(data=1:20, nrow = 4, ncol=5, byrow = T )
+m1
+which.max(m1)
+which.min(m1)
+
+```
+# Dimensions
+```{r}
+
+dim(m1)
+
+```
+
+
+```{r}
+m2 <- matrix(sample(2:30,20),nrow=4, ncol=5, byrow = T)
+m2
+```
+#Matrix Addition
+```{r}
+m1 + m2
+
+```
+
+```{r}
+
+m3 <- matrix(seq(-18,20,2), nrow=5, ncol=4, byrow = F)
+m3
+
+```
+#Matrix Multiplication
+```{r}
+
+Mmul1 <- m1 %*% m3
+Mmul1
+Mmul2 <-m2 %*% m3
+Mmul2
+```
+
+
